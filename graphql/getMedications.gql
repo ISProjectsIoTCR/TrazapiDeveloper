@@ -1,0 +1,25 @@
+query GetMedications($userId: ID) {
+  medications(
+    sort: "id:desc", 
+    pagination: { start: 0, limit: 50 },
+    filters: { Usuario: { id: { eq: $userId } } }
+  ) {
+    data {
+      id
+      attributes {
+        Slug
+       Fecha
+        AcarosAntes
+        Producto
+        Ingrediente
+        Dosis
+        Volumen
+        Plagas
+        FechaRetiro
+        MonitorAcaros
+        Observaciones
+        NombreApiario
+      }
+    }
+  }
+}

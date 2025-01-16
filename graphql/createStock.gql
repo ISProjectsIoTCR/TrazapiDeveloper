@@ -1,0 +1,35 @@
+mutation (
+  $slug: String!,
+  $usuarioId: ID!,
+  $material: String!,
+  $costo: String!,
+  $disponible: String!,
+  $nombreApiario: String!,
+  $fecha: String!,
+  $cantidad: String!,
+  $materialesTotales: String!,
+  $total: String!,
+  $materialesFaltantes: String!,
+  $acepta: Boolean!
+) {
+  createStock(
+    data: {
+      Slug: $slug,
+      Usuario: $usuarioId,
+      Material: $material,
+      Costo: $costo,
+      Disponible: $disponible,
+      NombreApiario: $nombreApiario,
+      Fecha: $fecha,
+      Cantidad: $cantidad,
+      MaterialesTotales: $materialesTotales,
+      Total: $total,
+      MaterialesFaltantes: $materialesFaltantes,
+      Acepta: $acepta
+    }
+  ) {
+    data {
+      id
+    }
+  }
+}

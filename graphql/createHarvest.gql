@@ -1,0 +1,35 @@
+mutation (
+  $slug: String!,
+  $usuarioId: ID!,
+  $fecha: String!,
+  $actividad: String!,
+  $observaciones: String!,
+  $proximaActividad: String!,
+  $nombreApiario: String!,
+  $nombreResponsable: String!,
+  $codigoApiario: String!,
+  $codigoUbicacion: String!,
+  $ubicacion: String!,
+  $acepta: Boolean!
+) {
+  createHarves(
+    data: {
+      Slug: $slug,
+      Usuario: $usuarioId,
+      Fecha: $fecha,
+      Actividad: $actividad,
+      Observaciones: $observaciones,
+      ProximaActividad: $proximaActividad,
+      NombreApiario: $nombreApiario,
+      NombreResponsable: $nombreResponsable,
+      CodigoApiario: $codigoApiario,
+      CodigoUbicacion: $codigoUbicacion,
+      Ubicacion: $ubicacion,
+      Acepta: $acepta
+    }
+  ) {
+    data {
+      id
+    }
+  }
+}

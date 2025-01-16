@@ -1,0 +1,17 @@
+mutation UpdateUser(
+  $userId: ID!,   
+  $name: String!, 
+  $about: String!, 
+  $location: String!) {
+  updateUsersPermissionsUser(id: $userId, 
+    data: {
+      username: $name ,
+      About:$about,
+      Location:$location
+    }) {
+    data {
+      id
+    
+    }
+  }
+}

@@ -1,0 +1,43 @@
+mutation (
+  $slug: String!,
+  $usuarioId: ID!,
+  $fecha: String!,
+  $acarosAntes: String!,
+  $producto: String!,
+  $ingrediente: String!,
+  $dosis: String!,
+  $volumen: String!,
+  $plagas: String!,
+  $fechaRetiro: String!,
+  $monitorAcaros: String!,
+  $observaciones: String!,
+  $nombreApiario: String!,
+  $codigoApiario: String!,
+  $ubicacion: String!,
+  $acepta: Boolean!
+) {
+  createMedication(
+    data: {
+      Slug: $slug,
+      Usuario: $usuarioId,
+      Fecha: $fecha,
+      AcarosAntes: $acarosAntes,
+      Producto: $producto,
+      Ingrediente: $ingrediente,
+      Dosis: $dosis,
+      Volumen: $volumen,
+      Plagas: $plagas,
+      FechaRetiro: $fechaRetiro,
+      MonitorAcaros: $monitorAcaros,
+      Observaciones: $observaciones,
+      NombreApiario: $nombreApiario,
+      CodigoApiario: $codigoApiario,
+      Ubicacion: $ubicacion,
+      Acepta: $acepta
+    }
+  ) {
+    data {
+      id
+    }
+  }
+}

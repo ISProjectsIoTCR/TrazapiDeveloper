@@ -1,0 +1,23 @@
+query GetHarvest($userId: ID) {
+  harvests(
+    sort: "id:desc", 
+    pagination: { start: 0, limit: 50 },
+    filters: { Usuario: { id: { eq: $userId } } }
+  ) {
+    data {
+      id
+      attributes {
+        Slug
+        Fecha
+        Actividad
+        Observaciones
+        ProximaActividad
+        NombreApiario
+        NombreResponsable
+        CodigoApiario
+        CodigoUbicacion
+        Ubicacion
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+mutation (
+  $slug: String!,
+  $usuarioId: ID!,
+  $mes: String!,
+  $tipoColmena: String!,
+  $muertas: String!,
+  $huerfanas: String!,
+  $nucleo: String!,
+  $enjambre: String!,
+  $otros: String!,
+  $observaciones: String!,
+  $nombreApiario: String!,
+  $nombreResponsable: String!,
+  $codigoApiario: String!,
+  $codigoUbicacion: String!,
+  $ubicacion: String!,
+  $acepta: Boolean!,
+  $composicion: [ComponentComposicionComposicionInput]!
+) {
+  createComposition(
+    data: {
+      Slug: $slug,
+      Usuario: $usuarioId,
+      Mes: $mes,
+      TipoColmena: $tipoColmena,
+      Muertas: $muertas,
+      Huerfanas: $huerfanas,
+      Nucleo: $nucleo,
+      Enjambre: $enjambre,
+      Otros: $otros,
+      Observaciones: $observaciones,
+      NombreApiario: $nombreApiario,
+      NombreResponsable: $nombreResponsable,
+      CodigoApiario: $codigoApiario,
+      CodigoUbicacion: $codigoUbicacion,
+      Ubicacion: $ubicacion,
+      Acepta: $acepta,
+      Composicion: $composicion
+    }
+  ) {
+    data {
+      id
+    }
+  }
+}

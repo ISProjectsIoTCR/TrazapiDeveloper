@@ -1,0 +1,44 @@
+mutation (
+  $slug: String!,
+  $usuarioId: ID!,
+  $fecha: String!,
+  $totalPanales: String!,
+  $panalesCubiertos: String!,
+  $situacion: String!,
+  $reservas: String!,
+  $actividad: String!,
+  $proximaVisita: String!,
+  $nombreApiario: String!,
+  $nombreResponsable: String!,
+  $codigoApiario: String!,
+  $codigoUbicacion: String!,
+  $ubicacion: String!,
+  $tipoManejo: String!,
+  $acepta: Boolean!
+) {
+  createInspection(
+    data: {
+      Slug: $slug,
+      Usuario: $usuarioId,
+      Fecha: $fecha,
+      TotalPanales: $totalPanales,
+      PanalesCubiertos: $panalesCubiertos,
+      Situacion: $situacion,
+      Reservas: $reservas,
+      Actividad: $actividad,
+      ProximaVisita: $proximaVisita,
+      NombreApiario: $nombreApiario,
+      NombreResponsable: $nombreResponsable,
+      CodigoApiario: $codigoApiario,
+      CodigoUbicacion: $codigoUbicacion,
+      Ubicacion: $ubicacion,
+      TipoManejo: $tipoManejo,
+      Acepta: $acepta
+    }
+  ) {
+    data {
+      id
+  
+    }
+  }
+}

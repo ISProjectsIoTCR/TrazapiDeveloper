@@ -1,0 +1,268 @@
+{
+  "pages": {
+    "dashboard": {
+      "widgets": {
+        "rencentactivities": "Aktuelle Aktivitäten",
+        "medicationmsg": "Medikamentenanwendung",
+        "medicationbutton": "Registrieren!",
+        "totalbeehivesmsg": "Gesamtzahl der Bienenstöcke",
+        "stockregisters": "Inventarregister",
+        "lastmedication": "Letzte Medikamentenanwendung",
+        "myprofile":"Mein Profil"
+      }
+    }
+  },
+    "navbar": {
+      "search": {
+        "text": "Suchen..."
+      },
+      "dropdown": {
+        "site": {
+          "list": {
+            "app":"Virtuelle Tour",
+            "cd":"Corona Dorada",
+            "store":"Geschäfte"
+          }
+        },
+        "notification": {
+          "badge": "3",
+          "text": "Benachrichtigungen",
+          "subtext": "Alle anzeigen",
+          "order": {
+            "title": "Ihre Bestellung ist aufgegeben",
+            "text": "Wenn verschiedene Sprachen die Grammatik verschmelzen",
+            "time": "Vor 3 Minuten"
+          },
+          "james": {
+            "title": "James Lemire",
+            "text": "Es wird wie einfaches Englisch aussehen.",
+            "time": "Vor 1 Stunde"
+          },
+          "item": {
+            "title": "Ihr Artikel wurde versendet",
+            "text": "Wenn verschiedene Sprachen die Grammatik verschmelzen",
+            "time": "Vor 3 Minuten"
+          },
+          "salena": {
+            "title": "Salena Layfield",
+            "text": "Wie ein skeptischer Cambridge-Freund von mir.",
+            "time": "Vor 1 Stunde"
+          },
+          "button": "Mehr laden.."
+        },
+        "marcus": {
+          "text": "Markieren",
+          "list": {
+            "profile": "Profil",
+            "mywallet": "Meine Brieftasche",
+            "settings": "Einstellungen",
+            "lockscreen": "Bildschirm sperren",
+            "logout": "Abmelden"
+          }
+        }
+      }
+    },
+    "menuitems": {
+      "menu": {
+        "text": "Menü"
+      },
+      "dashboard": {
+        "text": "Dashboard",
+        "badge": "01"
+      },
+      "tables": {
+        "text": "Registertabellen",
+        "list": {
+          "check": "Überprüfen von Bienenstöcken",
+          "composition": "Zusammensetzung von Bienenstöcken",
+          "rainyseason": "Regenzeit",
+          "harvest": "Vorernte und Ernte",
+          "cart": "Vorernte und Ernte",
+          "checkout": "Kasse",
+          "shops": "Shops",
+          "addproduct": "Produkt hinzufügen"
+        }
+      },
+      "medication": {
+        "text": "Krankheitskontrolle",
+        "badge": "02"
+      },
+      "guide": {
+        "text": "Technischer Leitfaden",
+        "badge": "03"
+      },
+      "stock": {
+        "text": "Bestand",
+        "badge": "04"
+      },
+      "apps": {
+        "text": "Anwendungen"
+      },
+      "calendar": {
+        "text": "Kalender"
+      },
+      "chat": {
+        "text": "Chat",
+        "badge": "Neu"
+      },
+      "ecommerce": {
+        "text": "E-Commerce",
+        "list": {
+          "products": "Produkte",
+          "productdetail": "Produktdetail",
+          "orders": "Bestellungen",
+          "customers": "Kunden",
+          "cart": "Wagen",
+          "checkout": "Auschecken",
+          "shops": "Shops",
+          "addproduct": "Produkt hinzufügen"
+        }
+      },
+      "email": {
+        "text": "E-Mail",
+        "list": {
+          "inbox": "Posteingang",
+          "reademail": "E-Mail lesen"
+        }
+      },
+      "invoices": {
+        "text": "Rechnungen",
+        "list": {
+          "invoicelist": "Rechnungsliste",
+          "invoicedetail": "Rechnungsdetail"
+        }
+      },
+      "tasks": {
+        "text": "Aufgaben",
+        "list": {
+          "tasklist": "Aufgabenliste",
+          "kanban": "Kanban-Board",
+          "createtask": "Aufgabe erstellen"
+        }
+      },
+      "contacts": {
+        "text": "Kontakte",
+        "list": {
+          "usergrid": "Benutzerraster",
+          "userlist": "Benutzerliste",
+          "profile": "Profil"
+        }
+      },
+      "pages": {
+        "text": "Seiten"
+      },
+      "authentication": {
+        "text": "Authentifizierung",
+        "list": {
+          "login": "Einloggen",
+          "register": "Registrieren",
+          "recoverpwd": "Passwort wiederherstellen",
+          "lockscreen": "Bildschirm sperren"
+        }
+      },
+      "utility": {
+        "text": "Dienstprogramm",
+        "list": {
+          "starter": "Startseite",
+          "comingsoon": "Demnächst",
+          "maintenance": "Wartung",
+          "timeline": "Zeitleiste",
+          "faqs": "FAQs",
+          "pricing": "Preise",
+          "error404": "Fehler 404",
+          "error500": "Fehler 500"
+        }
+      },
+      "components": {
+        "text": "Komponenten"
+      },
+      "uielements": {
+        "text": "UI-Elemente",
+        "list": {
+          "alerts": "Benachrichtigungen",
+          "buttons": "Schaltflächen",
+          "cards": "Karten",
+          "carousel": "Karussell",
+          "dropdowns": "Dropdown-Listen",
+          "grid": "Raster",
+          "images": "Bilder",
+          "modals": "Modale",
+          "rangeslider": "Bereichsschieberegler",
+          "progressbar": "Fortschrittsbalken",
+          "placeholder": "Platzhalter",
+          "sweetalert": "Süße Benachrichtigung",
+          "tabs": "Tabs und Akkordeons",
+          "typography": "Typografie",
+          "video": "Video",
+          "general": "Allgemein",
+          "colors": "Farben",
+          "lightbox": "Lightbox",
+          "cropper": "Bildausschnitt",
+          "rating": "Bewertung",
+          "notifications": "Benachrichtigungen"
+        }
+      },
+      "forms": {
+        "text": "Formulare",
+        "badge": "8",
+        "list": {
+          "elements": "Formularelemente",
+          "layouts": "Formularlayouts",
+          "validation": "Formularvalidierung",
+          "advanced": "Erweitertes Formular",
+          "editor": "Formulareditor",
+          "fileupload": "Formular-Datei-Upload",
+          "repeater": "Formular-Wiederholer",
+          "wizard": "Formular-Assistent",
+          "mask": "Formularmaske"
+        }
+      },
+      "tablesx": {
+        "text": "Tabellen",
+        "list": {
+          "basic": "Grundlegende Tabellen",
+          "advanced": "Erweiterte Tabelle"
+        }
+      },
+      "charts": {
+        "text": "Diagramme",
+        "list": {
+          "apex": "Apex-Diagramm",
+          "chartjs": "Chart.js-Diagramm",
+          "chartist": "Chartist-Diagramm",
+          "echart": "E-Diagramm"
+        }
+      },
+      "icons": {
+        "text": "Symbole",
+        "list": {
+          "unicons": "Unicons",
+          "boxicons": "Boxicons",
+          "materialdesign": "Material Design",
+          "dripicons": "Dripicons",
+          "fontawesome": "Font Awesome"
+        }
+      },
+      "maps": {
+        "text": "Karten",
+        "list": {
+          "googlemap": "Google Maps",
+          "leafletmap": "Leaflet Maps"
+        }
+      },
+      "multilevel": {
+        "text": "Mehrstufig",
+        "list": {
+          "level1": {
+            "1": "Ebene 1.1",
+            "2": "Ebene 1.2",
+            "level2": {
+              "1": "Ebene 2.1",
+              "2": "Ebene 2.2"
+            }
+          }
+        }
+      }
+    }
+  }
+  

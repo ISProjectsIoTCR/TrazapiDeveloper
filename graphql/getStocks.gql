@@ -1,0 +1,23 @@
+query GetStocks($userId: ID) {
+  stocks(
+    sort: "id:desc", 
+    pagination: { start: 0, limit: 50 },
+    filters: { Usuario: { id: { eq: $userId } } }
+  ) {
+    data {
+      id
+      attributes {
+        Slug
+       Material
+        Costo
+        Disponible
+        NombreApiario
+        Fecha
+        Cantidad
+        MaterialesTotales
+        Total
+        MaterialesFaltantes
+      }
+    }
+  }
+}

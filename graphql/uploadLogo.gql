@@ -1,0 +1,18 @@
+mutation UpdateLogo($id: ID!,   $logoId: ID!) {
+  updateLogo(id: $id, data: { Logo: $logoId }) {
+    data {
+      id
+      attributes {
+       
+        Logo {
+          data {
+            id
+            attributes {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}

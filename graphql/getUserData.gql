@@ -1,0 +1,28 @@
+query GetUserData($userId: ID) {
+  usersPermissionsUsers(
+    sort: "id:desc", 
+    pagination: { start: 0, limit: 50 },
+    filters: {  id: { eq: $userId } } 
+  ) {
+    data {
+      id
+      attributes {
+     
+       
+        Location
+        About
+        Beehives{
+          data{
+            attributes{
+              Uid
+              Nombre
+              Date
+              Status
+            }
+          }
+        }
+ 
+      }
+    }
+  }
+}
